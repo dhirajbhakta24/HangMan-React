@@ -6,7 +6,7 @@ function TextInput({
 }) {
   return (
     <label>
-      <span className="text-gray-700">{label}</span>
+      <div className="text-gray-700">{label}</div>
 
       <input
         type={type}

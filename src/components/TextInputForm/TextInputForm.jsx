@@ -1,3 +1,4 @@
+//PRESENTATION CONTAINER PATTERN 
 //here how our component will look is defined , logic is implemented
 //in other container file which contain only logic
 // this type of segregation helps to follow the important rule in coding world
@@ -18,7 +19,7 @@ function TextInputForm({
 }) {
   return (
     <form onSubmit={handleFormSubmit}>
-      <div>
+      <div className="w-full max-w-lg mx-auto">
         <TextInput
           type={inputType}
           label="Enter a word or a phrase"
