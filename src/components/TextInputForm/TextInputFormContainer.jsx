@@ -16,7 +16,7 @@ function TextInputFormContainer() {
 
     console.log("Form submitted" , value);
     if(value){
-      navigate("/play")
+      navigate(`play`, {state :{wordSelected:value}})
     }
   }
 
