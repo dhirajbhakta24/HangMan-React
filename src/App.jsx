@@ -8,6 +8,7 @@ function App(){
         <Routes>
             <Route path='/' element ={<div>Home</div>}/>
             <Route path='/start' element={<StartGame/>}/>
+            {/* <Route path = '/start/play' element={<PlayGame/>}/> */}
             <Route path='/play' element={<PlayGame/>}/>
 
         </Routes>
